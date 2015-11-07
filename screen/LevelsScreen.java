@@ -71,7 +71,7 @@ public class LevelsScreen implements Screen, InputProcessor{
 	}
 	void onClick(){
 		for(int i = 0; i < buttons.length(); i++){
-			button[i].addListener(new ClickListener(){
+			buttons[i].addListener(new ClickListener(){
 		        @Override
 		        public void clicked(InputEvent event, float x, float y) {
 		            //Same way we moved here from the Splash Screen
